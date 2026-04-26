@@ -1,0 +1,285 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Kartikey Panchal | UX Designer</title>
+    <meta
+      name="description"
+      content="Dark neon gaming dashboard style portfolio for Kartikey Panchal, UX Designer."
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Space+Grotesk:wght@500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="animated-bg" aria-hidden="true"></div>
+    <div class="background-grid" aria-hidden="true"></div>
+    <div class="cursor-glow" aria-hidden="true"></div>
+    <canvas id="global-particles" aria-hidden="true"></canvas>
+
+    <header class="site-header">
+      <div class="container nav-wrap">
+        <a class="brand-logo" href="#home">KP</a>
+        <button class="menu-btn" type="button" aria-expanded="false" aria-controls="primary-nav">
+          <span></span><span></span><span></span>
+        </button>
+        <nav id="primary-nav" class="nav-links">
+          <a href="#home">Home</a>
+          <a href="#about">About</a>
+          <a href="#projects">Projects</a>
+          <a href="#skills">Skills</a>
+          <a href="#gallery">Gallery</a>
+          <a href="#contact">Contact</a>
+        </nav>
+      </div>
+    </header>
+
+    <main>
+      <section id="home" class="section hero">
+        <div class="container hero-grid">
+          <div class="hero-content reveal" data-parallax="-0.04">
+            <p class="hero-intro">Hello, I'm <span aria-hidden="true">👋</span></p>
+            <h1 class="hero-name glitch" data-text="KARTIKEY">KARTIKEY</h1>
+            <h2 class="hero-surname">PANCHAL</h2>
+            <p class="hero-role">UX Designer</p>
+            <p class="hero-subtitle">
+              <span id="typing-text"></span><span class="typing-cursor">|</span>
+            </p>
+            <p class="hero-description">
+              <!-- Edit this text -->
+              I craft user-centered digital experiences with clean visuals, strong interaction logic,
+              and purpose-driven design thinking.
+            </p>
+            <div class="xp-wrap" aria-label="XP loading bar">
+              <span>XP Loading</span>
+              <div class="xp-bar"><i></i></div>
+            </div>
+            <div class="hero-actions">
+              <a class="btn btn-primary" href="#projects">Explore My Work</a>
+              <a class="btn btn-outline" href="#contact">Contact Me</a>
+            </div>
+          </div>
+
+          <div class="hero-visual reveal" data-parallax="0.05">
+            <div class="portrait-wrapper tilt-card">
+              <div class="neon-ring" aria-hidden="true"></div>
+              <div class="neon-aura" aria-hidden="true"></div>
+              <!-- Replace this photo with your own photo -->
+              <img src="images/k.v.jpg" alt="Kartikey Panchal portrait" class="profile-main" />
+            </div>
+            <div class="floating-card card-1">⚡ UX Designer</div>
+            <div class="floating-card card-2">🧠 Creative Thinker</div>
+            <div class="floating-card card-3">🚀 Future Builder</div>
+          </div>
+        </div>
+        
+        <div class="container">
+          <div class="hero-stats glass-card reveal">
+            <article>
+              <h3>Projects</h3>
+              <p>06+</p>
+            </article>
+            <article>
+              <h3>Skills</h3>
+              <p>12+</p>
+            </article>
+            <article>
+              <h3>Experience</h3>
+              <p>Learning</p>
+            </article>
+            <article>
+              <h3>Passion</h3>
+              <p>Designing</p>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section id="about" class="section">
+        <div class="container">
+          <div class="section-head reveal">
+            <p class="section-tag">About Me</p>
+            <h2>Designing with Empathy, Building with Purpose.</h2>
+          </div>
+          <div class="about-grid">
+            <article class="glass-card about-card reveal tilt-card">
+              <h3>Education</h3>
+              <p>B.Des UX Design</p>
+              <p>DIT University</p>
+              <p>Semester I</p>
+            </article>
+            <article class="glass-card about-card reveal tilt-card">
+              <h3>Interests</h3>
+              <ul>
+                <li>UI/UX Design</li>
+                <li>User Research</li>
+                <li>Prototyping</li>
+                <li>Web Design</li>
+                <li>Interaction Design</li>
+              </ul>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section id="projects" class="section">
+        <div class="container">
+          <div class="section-head reveal">
+            <p class="section-tag">Projects / Missions</p>
+            <h2>Mission Archive</h2>
+          </div>
+          <div class="projects-grid">
+            <!-- COPY THIS CARD TO ADD NEW PROJECT -->
+            <article class="project-card glass-card reveal tilt-card">
+              <span class="status">Completed ✅</span>
+              <!-- Replace this photo with your own photo -->
+              <img src="images/big.gpg.jpeg" alt="Project preview image" />
+              <h3>Mission 01: Onboarding Redesign</h3>
+              <p><strong>Subject:</strong> UX Design Case Study</p>
+              <p><strong>Tools:</strong> Figma, FigJam, Notion</p>
+              <p>
+                <!-- Edit this text -->
+                Improved onboarding flow with clarity-driven screens and friction-free user journey.
+              </p>
+            </article>
+
+            <article class="project-card glass-card reveal tilt-card">
+              <span class="status">Completed ✅</span>
+              <!-- Replace this photo with your own photo -->
+              <img src="images/dodo.gpg.jpeg" alt="Project preview image" />
+              <h3>Mission 02: Portfolio Experience</h3>
+              <p><strong>Subject:</strong> Interface Design</p>
+              <p><strong>Tools:</strong> HTML, CSS, JavaScript</p>
+              <p>
+                <!-- Edit this text -->
+                Built a premium cyberpunk profile interface focused on hierarchy, clarity, and delight.
+              </p>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section id="skills" class="section">
+        <div class="container">
+          <div class="section-head reveal">
+            <p class="section-tag">Skills / Power Stats</p>
+            <h2>Core Abilities</h2>
+          </div>
+          <div class="skills-grid">
+            <article class="glass-card skill-item reveal">
+              <div class="skill-top"><span>UI Design</span><span>92%</span></div>
+              <div class="skill-bar"><i style="--level: 92%"></i></div>
+            </article>
+            <article class="glass-card skill-item reveal">
+              <div class="skill-top"><span>UX Research</span><span>87%</span></div>
+              <div class="skill-bar"><i style="--level: 87%"></i></div>
+            </article>
+            <article class="glass-card skill-item reveal">
+              <div class="skill-top"><span>Figma</span><span>91%</span></div>
+              <div class="skill-bar"><i style="--level: 91%"></i></div>
+            </article>
+            <article class="glass-card skill-item reveal">
+              <div class="skill-top"><span>HTML</span><span>82%</span></div>
+              <div class="skill-bar"><i style="--level: 82%"></i></div>
+            </article>
+            <article class="glass-card skill-item reveal">
+              <div class="skill-top"><span>CSS</span><span>86%</span></div>
+              <div class="skill-bar"><i style="--level: 86%"></i></div>
+            </article>
+            <article class="glass-card skill-item reveal">
+              <div class="skill-top"><span>JavaScript</span><span>78%</span></div>
+              <div class="skill-bar"><i style="--level: 78%"></i></div>
+            </article>
+            <article class="glass-card skill-item reveal">
+              <div class="skill-top"><span>Creativity</span><span>95%</span></div>
+              <div class="skill-bar"><i style="--level: 95%"></i></div>
+            </article>
+            <article class="glass-card skill-item reveal">
+              <div class="skill-top"><span>Communication</span><span>88%</span></div>
+              <div class="skill-bar"><i style="--level: 88%"></i></div>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section id="gallery" class="section">
+        <div class="container">
+          <div class="section-head reveal">
+            <p class="section-tag">Gallery / Inventory</p>
+            <h2>Creative Showcase</h2>
+          </div>
+          <div class="gallery-grid">
+            <article class="gallery-card glass-card reveal tilt-card">
+              <!-- Replace this photo with your own photo -->
+              <img src="images/sk.jpeg" alt="Sketches" />
+              <h3>Sketches ✏️</h3>
+            </article>
+            <article class="gallery-card glass-card reveal tilt-card">
+              <!-- Replace this photo with your own photo -->
+              <img src="images/wi.jpeg" alt="Wireframes" />
+              <h3>Wireframes 🧩</h3>
+            </article>
+            <article class="gallery-card glass-card reveal tilt-card">
+              <!-- Replace this photo with your own photo -->
+              <img src="images/ui.jpeg" alt="UI Screens" />
+              <h3>UI Screens 🖥️</h3>
+            </article>
+            <article class="gallery-card glass-card reveal tilt-card">
+              <!-- Replace this photo with your own photo -->
+              <img src="images/pp.jpeg" alt="Process Work" />
+              <h3>Process Work ⚙️</h3>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section id="contact" class="section">
+        <div class="container">
+          <div class="section-head reveal">
+            <p class="section-tag">Contact / Final Quest</p>
+            <h2>Let's Build Something Meaningful</h2>
+          </div>
+          <div class="contact-grid">
+            <article class="glass-card contact-info reveal">
+              <p><strong>Name:</strong> Kartikey Panchal</p>
+              <p><strong>Role:</strong> UX Designer</p>
+              <p><strong>Email:</strong> <a href="mailto:kartikeyvishwakarma362@gmail.com">kartikeyvishwakarma362@gmail.com</a></p>
+              <p><strong>Institution:</strong> DIT University</p>
+              <p><strong>Course:</strong> B.Des UX Design</p>
+              <p><strong>Semester:</strong> Semester I</p>
+            </article>
+            <form id="contact-form" class="glass-card contact-form reveal" novalidate>
+              <label for="name">Name</label>
+              <input id="name" name="name" type="text" placeholder="Enter your name" />
+              <small class="error-msg"></small>
+
+              <label for="email">Email</label>
+              <input id="email" name="email" type="email" placeholder="Enter your email" />
+              <small class="error-msg"></small>
+
+              <label for="message">Message</label>
+              <textarea id="message" name="message" rows="5" placeholder="Write your message"></textarea>
+              <small class="error-msg"></small>
+
+              <button type="submit" class="btn btn-primary">Send Message 🚀</button>
+              <p id="form-status" class="form-status" aria-live="polite"></p>
+            </form>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <div class="container">
+        <p>Kartikey Panchal | UX Designer | Creative Thinker | Problem Solver</p>
+      </div>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>
